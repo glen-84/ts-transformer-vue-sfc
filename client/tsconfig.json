@@ -1,0 +1,13 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        // https://github.com/TypeStrong/fork-ts-checker-webpack-plugin#vuejs
+        "importsNotUsedAsValues": "preserve",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "rootDir": "src",
+        "target": "ES2017",
+        "tsBuildInfoFile": "../node_modules/.cache/@x/front-end-client/.tsbuildinfo"
+    },
+    "include": ["src/**/*", "types.d.ts"]
+}

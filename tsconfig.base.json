@@ -1,0 +1,20 @@
+// This is the base config file extended by the client and server projects.
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "incremental": true,
+        "newLine": "LF",
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true
+    }
+}

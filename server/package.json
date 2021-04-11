@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "build": "tsc -p .",
+        "start": "nodemon dist/index.js",
+        "watch": "tsc -p . --watch"
+    },
+    "dependencies": {
+        "koa-static": "^5.0.0",
+        "koa": "^2.13.1"
+    },
+    "devDependencies": {
+        "@types/koa-static": "^4.0.1",
+        "@types/koa": "^2.13.1",
+        "nodemon": "^2.0.7"
+    }
+}

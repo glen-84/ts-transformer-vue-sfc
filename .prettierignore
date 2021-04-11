@@ -1,0 +1,5 @@
+# TODO: Create project-specific .prettierignore files (blocked by https://github.com/prettier/prettier/issues/4081).
+# Generated files.
+/client/public/assets/
+/package-lock.json
+package.json

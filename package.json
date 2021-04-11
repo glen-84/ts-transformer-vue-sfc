@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "workspaces": [
+        "client",
+        "server"
+    ],
+    "scripts": {},
+    "dependencies": {
+        "tslib": "^2.2.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/parser": "^4.21.0",
+        "cspell": "^5.3.12",
+        "eslint": "^7.23.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-plugin-vue": "^7.8.0",
+        "lint-staged": "^10.5.4",
+        "prettier": "^2.2.1",
+        "simple-git-hooks": "^2.2.0",
+        "typescript": "^4.2.4"
+    },
+    "simple-git-hooks": {
+    },
+    "lint-staged": {
+        "*.{html,js,json,md,scss,ts,vue}": "cspell",
+        "*.{html,js,json,scss,ts,vue}": "prettier --check",
+        "*.{scss,vue}": "stylelint"
+    }
+}
